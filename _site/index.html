@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dionne Argyropoulos">
+<meta name="dcterms.date" content="2026-05-26">
+
+<title>R-Ladies Melbourne Inc.&nbsp;Annual Report 2025-26</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3efcbe239fe0a6852dfaae756de25e55.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0adfd4f66762ea4f70d458b41e6c1a9e.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3efcbe239fe0a6852dfaae756de25e55.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-93155d3010d6a66fb2eb986613bdb192.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-93155d3010d6a66fb2eb986613bdb192.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-93155d3010d6a66fb2eb986613bdb192.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="site_libs/quarto-contrib/quarto-project/rladies/glamour/logos/favicon-purple.svg" alt="RLadies+ icon" class="navbar-logo light-content">
+    <img src="site_libs/quarto-contrib/quarto-project/rladies/glamour/logos/favicon-purple.svg" alt="RLadies+ icon" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://r-ladiesmelbourne.github.io/"> 
+<span class="menu-text">Our Website</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/rladiesmelb.bsky.social"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:bluesky" aria-label="Icon bluesky from simple-icons Iconify.design set." title="Icon bluesky from simple-icons Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.meetup.com/rladies-melbourne/"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:meetup" aria-label="Icon meetup from fa6-brands Iconify.design set." title="Icon meetup from fa6-brands Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/channel/UClC5yNEjMoE3MmbK-mrV8Ow"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./rladiesmelbourne@gmail.com"> <i class="bi bi-envelope-fill" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://join.slack.com/t/r-ladiesmelbourne/shared_invite/zt-2v1aery5t-AV4eiBvUhLengyyqDSlndQ"> <i class="bi bi-slack" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/R-LadiesMelbourne"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">R-Ladies Melbourne Inc.&nbsp;Annual Report 2025-26</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dionne Argyropoulos </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="r-ladies-melbourne-inc.-a-chapter-of-r-ladies-global" class="level2">
+<h2 class="anchored" data-anchor-id="r-ladies-melbourne-inc.-a-chapter-of-r-ladies-global">R-Ladies Melbourne Inc.: A Chapter of R-Ladies+ Global</h2>
+<p><span style="color:purple">R-Ladies Melbourne Inc.</span> is a registered non-profit organization and a local chapter of <a href="https://rladies.org/"><strong>R-Ladies+ Global</strong></a>. Our aim is to promote gender diversity in the R community, both in Australia and worldwide. We welcome members of all R proficiency levels, whether you’re a new or aspiring R user or experienced in R programming and interested in mentoring, networking &amp; expert upskilling. Our community is designed to develop our members’ R skills &amp; knowledge through social, collaborative learning &amp; sharing. Checkout our <a href="https://r-ladiesmelbourne.github.io/"><strong>website</strong></a> to learn more.</p>
+</section>
+<section id="our-2025-26-committee" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="our-2025-26-committee">Our 2025-26 Committee</h2>
+<p>Our leadership for 2025-26 R-Ladies Melbourne included:</p>
+<ul>
+<li><strong>President</strong>: Dionne Argyropoulos</li>
+<li><strong>Vice President</strong>: Danyang Dai (Daidai)</li>
+<li><strong>Secretary</strong>: Sehrish Kanwal</li>
+<li><strong>Treasurer</strong>: Kathleen Zeglinski</li>
+<li><strong>Committee members</strong>: Caitlin Bourke, Felicia Bongiovanni, Harriet Mason, Kirsty McCann, Mansi Aggarwal, Mei Du, Maliny Po, Kylie Ainslie</li>
+<li><strong>Outgoing members</strong>: Megan Sora, Lauren Smith, Belen Prado, Cecilia Rios Teran</li>
+</ul>
+<p><img src="images/committee_25_26.png" class="img-fluid"></p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Committee</strong>: Kathleen (top left), Dionne (top centre), Megan (top right), Daidai (second row right), Kirsty (third row middle), Sehrish (bottom left), Mansi (bottom right), Belen, Lauren, Caitlin, Felicia, Harriet, Mei, Maliny and Kylie [not pictured].</p>
+<p><strong>R-Ladies Sydney</strong>: Fonti (second row left)</p>
+<p><strong>R-Ladies Canberra</strong>: Emi (third row left)</p>
+<p><strong>Advisory Committee</strong>: Anna (second row middle), Di (third row right)</p>
+</div></div><p>We recruited many committee members at our final events of 2025, welcoming 3 new members by the end of the year.</p>
+</section>
+<section id="meetup-events" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="meetup-events">Meetup Events</h2>
+<p><strong>Meetups Hosted</strong>:</p>
+<ul>
+<li><a href="https://www.meetup.com/rladies-sydney/events/307276480/?eventOrigin=group_events_list">Cross-chapter: TidyTuesday with R-Ladies</a>.</li>
+<li><a href="https://github.com/R-LadiesMelbourne/28-05-25-Creating-simple-websites-with-Quarto-GitHub-Pages">Creating simple websites with Quarto + GitHub Pages</a>.</li>
+<li><a href="https://github.com/R-LadiesMelbourne/09-07-2025-Using-Git-for-Version-Control-and-Collaboration">Using Git for Version Control and Collaboration</a>.</li>
+<li><a href="https://github.com/R-LadiesMelbourne/23-10-25-It-Takes-A-Spark">It Takes a Spark 2025: Become a Disease Detective</a>.</li>
+<li><a href="https://www.meetup.com/rladies-melbourne/events/310287919/?eventOrigin=group_events_list">R-Ladies Social Night</a>.</li>
+<li><a href="https://github.com/R-LadiesMelbourne/18-09-25-Plot-Twist-Bringing-Your-ggplot2-Visuals-to-Life-with-ggplotly">Plot Twist: Brining Your ggplot2 Visuals to Life with ggplotly</a>.</li>
+<li><a href="https://www.meetup.com/rladies-melbourne/events/311337114/?eventOrigin=group_events_list">R-Ladies &amp; SSA Melbourne Social Night: Happy 9th Birthday R-Ladies</a>.</li>
+<li><a href="https://www.meetup.com/rladies-melbourne/events/311618693/?eventOrigin=group_events_list">R-Ladies at R Dev Days with Dr Heather Turner</a>.</li>
+<li><a href="https://www.meetup.com/rladies-melbourne/events/311618784/?eventOrigin=group_events_list">End of Year Networking Event</a>.</li>
+<li><a href="https://github.com/R-LadiesMelbourne/18-03-26-Data-driven-decision-making-in-fantasy-basketball">Data driven decision making for fantasy basketball</a>.</li>
+<li><a href="https://www.meetup.com/rladies-melbourne/events/313938056/?eventOrigin=group_events_list">Di Cook Award Seminar Watch Party - R-Ladies+ Melbourne &amp; SSA-VIC</a>.</li>
+<li><a href="https://www.meetup.com/rladies-melbourne/events/314684648/?eventOrigin=group_past_events">Deep Probabilistic and Generative Modeling</a>.</li>
+</ul>
+<div class="column-screen-inset-shaded quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/IMG_5319.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/IMG_9185.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/IMG_6042.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="event-highlights" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="event-highlights">Event Highlights:</h2>
+<section id="cross-chapter-tidytuesday-with-r-ladies" class="level3">
+<h3 class="anchored" data-anchor-id="cross-chapter-tidytuesday-with-r-ladies">Cross-chapter TidyTuesday with R-Ladies</h3>
+<p>We kicked off our 2024–25 committee events with a cross-chapter event on May 6</p>
+<p>At the end of 2024, Daidai, Caitlin, Kathleen and I met with R-Ladies Canberra and R-Ladies Sydney who wanted to learn about how R-Ladies Melbourne operated. Since then, we’ve opened up our committee meetings to our friends across Australia, have open communication via email, bluesky and slack, and are planning to hold a joint-chapter TidyTuesday event next month!</p>
+<p>x https://www.meetup.com/rladies-sydney/events/307276480/?eventOrigin=group_events_list</p>
+</section>
+<section id="it-takes-a-spark-2025-become-a-disease-detective" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="it-takes-a-spark-2025-become-a-disease-detective">It Takes a Spark 2025: Become a Disease Detective</h3>
+<p>This year, Kirsty and I presented at the annual It Takes A Spark conference at The Knox School (see <a href="https://spark-educonferences.com.au/victoria-2024/">here</a>), armed with our <a href="https://github.com/R-LadiesMelbourne/17-11-23-ItTakesASpark">bookdown</a> and <a href="https://github.com/R-LadiesMelbourne/It-Takes-a-Spark-Slides">quarto slides</a> developed in our 2023 iteration.</p>
+<p>with minor updates</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>This marked the sixth year R-Ladies Melbourne had participated in the conference!</p>
+</div></div></section>
+<section id="end-of-year-networking-event" class="level3">
+<h3 class="anchored" data-anchor-id="end-of-year-networking-event">End of Year Networking Event</h3>
+<p>Our end-of-year networking event at The Clyde in Carlton was a fantastic success, bringing together an enthusiastic community to celebrate the close of 2024. We were joined by five incredible mentors—Jovana (Senior Research Associate at Peter MacCallum Cancer Centre), Kirsty McCann (Associate Research Fellow, Genomic Epidemiology), Victoria (Software Engineering Senior Consultant at DiUS), Anna Quaglieri (Senior Bioinformatics Data Scientist at Mass Dynamics), and Kate Saunders (Lecturer at Monash University) - who generously shared their career journeys, insights, and advice that brought them to their current roles in areas ranging from public health, genomics, bioinformatics, programming and software engineering!</p>
+<p>It was a wonderful evening of connection, learning, and celebration, and a perfect way to wrap up another great year for R-Ladies Melbourne!</p>
+</section>
+<section id="data-driven-decision-making-for-fantasy-basketball" class="level3">
+<h3 class="anchored" data-anchor-id="data-driven-decision-making-for-fantasy-basketball">Data driven decision making for fantasy basketball</h3>
+<p>Inspired me to look into my own stats</p>
+</section>
+</section>
+<section id="launch-of-our-in-house-book" class="level2">
+<h2 class="anchored" data-anchor-id="launch-of-our-in-house-book">Launch of our in-house book!</h2>
+<p>x</p>
+</section>
+<section id="branding-change-r-ladies-to-r-ladies" class="level2">
+<h2 class="anchored" data-anchor-id="branding-change-r-ladies-to-r-ladies">Branding Change: R-Ladies to R-Ladies+</h2>
+<p><strong>In my previous report, I wrote the following</strong>:</p>
+<p>As of March 14, 2025, <strong>R-Ladies</strong> Global broadcast that there will be a rebrand to <strong>R-Ladies+</strong> as shown in this <a href="https://rladies.org/news/rebranding-rladies/">blog post</a> in response to community feedback that the name “R-Ladies” does not fully reflect the diversity of under-represented genders it aims to support.</p>
+<p>This change aims to foster broader inclusivity while maintaining the organization’s globally recognized identity. After months of open discussion, the “+” was chosen over a complete name change to avoid confusion, preserve accessibility across languages, and accommodate the limited capacity of the organization’s volunteer-led structure. The re-branding will include a new visual identity and improved social infrastructure, empowering chapters to adopt the changes in ways that align with their local context and safety considerations. This effort reaffirms R-Ladies+’s commitment to fostering an inclusive and welcoming R community for all under-represented gender minorities.</p>
+<p><strong>As of this report</strong>:</p>
+<p>xxxx</p>
+</section>
+<section id="a-personal-note-from-dionne" class="level2">
+<h2 class="anchored" data-anchor-id="a-personal-note-from-dionne">A Personal Note from Dionne</h2>
+<p>What. A. Year.</p>
+<p>While we haven’t yet fully returned to hosting regular monthly meetings post-COVID, we’ve made great strides in rebuilding our committee, which is incredibly committed and eager to take R-Ladies Melbourne to new heights. I’m immensely proud of the team behind the scenes, who have worked hard to organize engaging and meaningful meetups. A major highlight of the year was our End of Year Networking Event, where we had the opportunity to connect with so many amazing people, engage with insightful mentors, and foster discussions around R coding in a fun, supportive environment. As we head into the next 2025-26 committee year, I’m looking forward to hosting more inspiring events, deep-dive coding events, welcoming diverse voices, and continuing to empower under-represented genders in the R community.</p>
+<p>💜</p>
+</section>
+<section id="sponsors" class="level2">
+<h2 class="anchored" data-anchor-id="sponsors">Sponsors</h2>
+<p>A great thanks to all of our supportive sponsors especially posit, Monash City Campus and DiUS.</p>
+<p><img src="images/sponsors.png" class="img-fluid"></p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>I would like to thank all of the past and present committee members for their support and friendship.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2026, R-Ladies Melbourne Inc.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/rladiesmelb.bsky.social">
+<p><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.meetup.com/rladies-melbourne/">
+<p><iconify-icon role="img" inline="" icon="fa6-brands:meetup" aria-label="Icon meetup from fa6-brands Iconify.design set." title="Icon meetup from fa6-brands Iconify.design set."></iconify-icon></p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/channel/UClC5yNEjMoE3MmbK-mrV8Ow">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="./rladiesmelbourne@gmail.com">
+      <i class="bi bi-envelope-fill" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://join.slack.com/t/r-ladiesmelbourne/shared_invite/zt-2l871qpk6-4EbxzUm2M5ow8vpXDZMspg">
+      <i class="bi bi-slack" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/R-LadiesMelbourne">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  favicon: images/favicon.png
+  navbar: 
+    background: "#881ef9"
+    search: true 
+    left:
+      - href: index.qmd
+        text: Home
+      - href: https://r-ladiesmelbourne.github.io/
+        text: Our Website
+    right:
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/rladiesmelb.bsky.social
+      - text: "{{< iconify fa6-brands meetup >}}"
+        href: https://www.meetup.com/rladies-melbourne/
+      - icon: youtube
+        href: https://www.youtube.com/channel/UClC5yNEjMoE3MmbK-mrV8Ow 
+      - icon: envelope-fill
+        href: rladiesmelbourne@gmail.com
+      - icon: slack
+        href: https://join.slack.com/t/r-ladiesmelbourne/shared_invite/zt-2v1aery5t-AV4eiBvUhLengyyqDSlndQ
+      - icon: github
+        href: https://github.com/R-LadiesMelbourne
+        menu:
+          - text: Source Code
+            href: https://github.com/R-LadiesMelbourne/r-ladiesmelbourne.github.io
+          - text: Report a Bug
+            href: https://github.com/R-LadiesMelbourne/r-ladiesmelbourne.github.io/issues
+  page-footer: 
+    left: "Copyright 2026, R-Ladies Melbourne Inc."
+    right: 
+      - text: "{{< iconify fa6-brands bluesky >}}"
+        href: https://bsky.app/profile/rladiesmelb.bsky.social
+      - text: "{{< iconify fa6-brands meetup >}}"
+        href: https://www.meetup.com/rladies-melbourne/
+      - icon: youtube
+        href: https://www.youtube.com/channel/UClC5yNEjMoE3MmbK-mrV8Ow 
+      - icon: envelope-fill
+        href: rladiesmelbourne@gmail.com
+      - icon: slack
+        href: https://join.slack.com/t/r-ladiesmelbourne/shared_invite/zt-2l871qpk6-4EbxzUm2M5ow8vpXDZMspg 
+      - icon: github
+        href: https://github.com/R-LadiesMelbourne
+    
+format:
+  # using the glamour quarto extension applies the R-Ladies+ brand.yml automatically 
+  glamour-html: default

@@ -1,0 +1,136 @@
+---
+title: "R-Ladies Melbourne Inc. Annual Report 2025-26"
+author: "Dionne Argyropoulos"
+date: today
+toc: false 
+---
+
+## R-Ladies Melbourne Inc.: A Chapter of R-Ladies+ Global
+
+[R-Ladies Melbourne Inc.]{style="color:purple"} is a registered non-profit organization and a local chapter of [**R-Ladies+ Global**](https://rladies.org/). Our aim is to promote gender diversity in the R community, both in Australia and worldwide. We welcome members of all R proficiency levels, whether you're a new or aspiring R user or experienced in R programming and interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Checkout our [**website**](https://r-ladiesmelbourne.github.io/) to learn more.
+
+## Branding Change: R-Ladies to R-Ladies+
+
+**In my previous report, I wrote the following**: 
+
+As of March 14, 2025, **R-Ladies** Global broadcast that there will be a rebrand to **R-Ladies+** as shown in this [blog post](https://rladies.org/news/rebranding-rladies/) in response to community feedback that the name "R-Ladies" does not fully reflect the diversity of under-represented genders it aims to support.
+
+This change aims to foster broader inclusivity while maintaining the organization’s globally recognized identity. After months of open discussion, the "+" was chosen over a complete name change to avoid confusion, preserve accessibility across languages, and accommodate the limited capacity of the organization’s volunteer-led structure. The re-branding will include a new visual identity and improved social infrastructure, empowering chapters to adopt the changes in ways that align with their local context and safety considerations. This effort reaffirms R-Ladies+’s commitment to fostering an inclusive and welcoming R community for all under-represented gender minorities.
+
+**As of this report**: 
+
+xxxx
+
+- we agreed upon the name and logo change
+- Our initial logo change
+- Upcoming logo change to be discussed 
+- New tools available from r-ladies+ global 
+
+## Our 2025-26 Committee
+
+Our leadership for 2025-26 R-Ladies+ Melbourne included:
+
+-   **President**: Dionne Argyropoulos
+-   **Vice President**: Danyang Dai (Daidai)
+-   **Secretary**: Sehrish Kanwal
+-   **Treasurer**: Kathleen Zeglinski
+-   **Committee members**: Caitlin Bourke, Felicia Bongiovanni, Harriet Mason, Kirsty McCann, Mansi Aggarwal, Mei Du, Maliny Po, Kylie Ainslie
+-   **Outgoing members**: Megan Sora, Lauren Smith, Belen Prado, Cecilia Rios Teran
+
+![](images/committee_25_26.png)
+
+::: column-margin
+**Committee**: Kathleen (top left), Dionne (top centre), Megan (top right), Daidai (second row right), Kirsty (third row middle), Sehrish (bottom left), Mansi (bottom right), Belen, Lauren, Caitlin, Felicia, Harriet, Mei, Maliny and Kylie \[not pictured\].
+
+**R-Ladies Sydney**: Fonti (second row left)
+
+**R-Ladies Canberra**: Emi (third row left)
+
+**Advisory Committee**: Anna (second row middle), Di (third row right)
+:::
+
+We recruited many committee members at our final events of 2025, welcoming 3 new members by the end of the year.
+
+## Meetup Events
+
+**Meetups Hosted**:
+
+-   [Cross-chapter: TidyTuesday with R-Ladies](https://www.meetup.com/rladies-sydney/events/307276480/?eventOrigin=group_events_list).
+-   [Creating simple websites with Quarto + GitHub Pages](https://github.com/R-LadiesMelbourne/28-05-25-Creating-simple-websites-with-Quarto-GitHub-Pages).
+-   [Using Git for Version Control and Collaboration](https://github.com/R-LadiesMelbourne/09-07-2025-Using-Git-for-Version-Control-and-Collaboration).
+-   [It Takes a Spark 2025: Become a Disease Detective](https://github.com/R-LadiesMelbourne/23-10-25-It-Takes-A-Spark).
+-   [R-Ladies Social Night](https://www.meetup.com/rladies-melbourne/events/310287919/?eventOrigin=group_events_list).
+-   [Plot Twist: Brining Your ggplot2 Visuals to Life with ggplotly](https://github.com/R-LadiesMelbourne/18-09-25-Plot-Twist-Bringing-Your-ggplot2-Visuals-to-Life-with-ggplotly).
+-   [R-Ladies & SSA Melbourne Social Night: Happy 9th Birthday R-Ladies](https://www.meetup.com/rladies-melbourne/events/311337114/?eventOrigin=group_events_list).
+-   [R-Ladies at R Dev Days with Dr Heather Turner](https://www.meetup.com/rladies-melbourne/events/311618693/?eventOrigin=group_events_list).
+-   [End of Year Networking Event](https://www.meetup.com/rladies-melbourne/events/311618784/?eventOrigin=group_events_list).
+-   [Data driven decision making for fantasy basketball](https://github.com/R-LadiesMelbourne/18-03-26-Data-driven-decision-making-in-fantasy-basketball).
+-   [Di Cook Award Seminar Watch Party - R-Ladies+ Melbourne & SSA-VIC](https://www.meetup.com/rladies-melbourne/events/313938056/?eventOrigin=group_events_list).
+-   [Deep Probabilistic and Generative Modeling](https://www.meetup.com/rladies-melbourne/events/314684648/?eventOrigin=group_past_events).
+
+::: {.column-screen-inset-shaded layout-ncol="3"}
+![](images/IMG_5319.jpg)
+
+![](images/IMG_9185.jpg)
+
+![](images/IMG_6042.jpg)
+:::
+
+## Event Highlights:
+
+### Cross-chapter TidyTuesday with R-Ladies
+
+We kicked off our 2024–25 committee events with a cross-chapter event on May 6
+
+At the end of 2024, Daidai, Caitlin, Kathleen and I met with R-Ladies+ Canberra and R-Ladies+ Sydney who wanted to learn about how R-Ladies+ Melbourne operated. Since then, we've opened up our committee meetings to our friends across Australia, have open communication via email, bluesky and slack, and are planning to hold a joint-chapter TidyTuesday event next month! 
+
+x https://www.meetup.com/rladies-sydney/events/307276480/?eventOrigin=group_events_list
+
+### Social Nights 
+
+- fun revival of social nights to break up the seminars and workshops
+- allowed for low-key events
+- joint organised event with SSA-VIC 
+- celebrated nine years as a group 
+
+### It Takes a Spark 2025: Become a Disease Detective
+
+This year, Kirsty and I presented at the annual It Takes A Spark conference at The Knox School (see [here](https://spark-educonferences.com.au/victoria-2024/)), armed with our [bookdown](https://github.com/R-LadiesMelbourne/17-11-23-ItTakesASpark) and [quarto slides](https://github.com/R-LadiesMelbourne/It-Takes-a-Spark-Slides) developed in our 2023 iteration.
+
+with minor updates
+
+::: column-margin
+This marked the **sixth** year R-Ladies+ Melbourne had participated in the conference!
+:::
+
+### End of Year Networking Event
+
+Our end-of-year networking event at The Clyde in Carlton was a fantastic success, bringing together an enthusiastic community to celebrate the close of 2024. We were joined by five incredible mentors—Jovana (Senior Research Associate at Peter MacCallum Cancer Centre), Kirsty McCann (Associate Research Fellow, Genomic Epidemiology), Victoria (Software Engineering Senior Consultant at DiUS), Anna Quaglieri (Senior Bioinformatics Data Scientist at Mass Dynamics), and Kate Saunders (Lecturer at Monash University) - who generously shared their career journeys, insights, and advice that brought them to their current roles in areas ranging from public health, genomics, bioinformatics, programming and software engineering!
+
+It was a wonderful evening of connection, learning, and celebration, and a perfect way to wrap up another great year for R-Ladies Melbourne!
+
+### Data driven decision making for fantasy basketball
+
+Inspired me to look into my own stats
+
+## Launch of our in-house book!
+
+x
+
+## A Personal Note from Dionne
+
+What. A. Year.
+
+While we haven’t yet fully returned to hosting regular monthly meetings post-COVID, we’ve made great strides in rebuilding our committee, which is incredibly committed and eager to take R-Ladies Melbourne to new heights. I’m immensely proud of the team behind the scenes, who have worked hard to organize engaging and meaningful meetups. A major highlight of the year was our End of Year Networking Event, where we had the opportunity to connect with so many amazing people, engage with insightful mentors, and foster discussions around R coding in a fun, supportive environment. As we head into the next 2025-26 committee year, I'm looking forward to hosting more inspiring events, deep-dive coding events, welcoming diverse voices, and continuing to empower under-represented genders in the R community.
+
+💜
+
+## Sponsors
+
+A great thanks to all of our supportive sponsors especially posit, Monash City Campus and DiUS.
+
+![](images/sponsors.png)
+
+## Acknowledgements
+
+I would like to thank all of the past and present committee members for their support and friendship.

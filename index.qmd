@@ -322,7 +322,7 @@ I keep thinking back to this talk - It has inspired me to look into how I can be
 
 It's no secret that I have been thrown myself into almost every part of R-Ladies+ Melbourne. As part of my recent attempts to not take everything on wholly by myself, I wanted to share a manifesto book that contains all the existing information about our infrastructure, goals, mission, event planning, and combine it with information that I have learned over the years that I have found to work. 
 
-My goal is that this in-house book will grow into a commonly used resource that can be updated with new information. I also hope that we move away from word-documents and publish these notes in this book, with version control. I have labelled the version `v.1.0.0`. For more please see the github repository [here](https://github.com/R-LadiesMelbourne/R_Ladies_Melb_Guide).
+My goal is that this in-house book will grow into a commonly used resource that can be updated with new information. I also hope that we move away from word-documents and publish these notes in this book, with version control. I have labelled the version `v.1.1.0`. For more please see the github repository [here](https://github.com/R-LadiesMelbourne/R_Ladies_Melb_Guide).
 
 ## A Personal Note from Me
 

@@ -606,7 +606,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="launch-of-our-in-house-book" class="level2">
 <h2 class="anchored" data-anchor-id="launch-of-our-in-house-book">Launch of our in-house book!</h2>
 <p>It’s no secret that I have been thrown myself into almost every part of R-Ladies+ Melbourne. As part of my recent attempts to not take everything on wholly by myself, I wanted to share a manifesto book that contains all the existing information about our infrastructure, goals, mission, event planning, and combine it with information that I have learned over the years that I have found to work.</p>
-<p>My goal is that this in-house book will grow into a commonly used resource that can be updated with new information. I also hope that we move away from word-documents and publish these notes in this book, with version control. I have labelled the version <code>v.1.0.0</code>. For more please see the github repository <a href="https://github.com/R-LadiesMelbourne/R_Ladies_Melb_Guide">here</a>.</p>
+<p>My goal is that this in-house book will grow into a commonly used resource that can be updated with new information. I also hope that we move away from word-documents and publish these notes in this book, with version control. I have labelled the version <code>v.1.1.0</code>. For more please see the github repository <a href="https://github.com/R-LadiesMelbourne/R_Ladies_Melb_Guide">here</a>.</p>
 </section>
 <section id="a-personal-note-from-me" class="level2">
 <h2 class="anchored" data-anchor-id="a-personal-note-from-me">A Personal Note from Me</h2>
@@ -712,7 +712,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/dionnecargy\.github\.io\/rladiesmelb-report-2025-26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
